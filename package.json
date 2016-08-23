@@ -1,10 +1,9 @@
 {
   "name": "bell-cli",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Bell whenever action is finish",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "bin": {
+    "bell": "./index.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +17,7 @@
   "license": "MIT",
   "dependencies": {
     "home-config": "^0.1.0",
-    "mailgun-js": "^0.7.12",
-    "yargs": "^5.0.0"
+    "inquirer": "^1.1.2",
+    "mailgun-js": "^0.7.12"
   }
 }
