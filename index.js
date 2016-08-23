@@ -83,9 +83,9 @@ const mailgun = require('mailgun-js')({
 
 mailgun.messages().send(data, (error, body) => {
   if (error) {
-    console.log('Something is wrong.', error);
+    console.log('[OH NO] Something is wrong.', error);
   }
   else {
-    console.log('You should get a bell!', body);
+    console.log('[OK] You should get a bell!');
   }
 });
