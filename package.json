@@ -1,13 +1,13 @@
 {
   "name": "bell-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Bell whenever action is finish",
   "bin": {
     "bell": "./index.js"
   },
   "repository": {
     "type": "git",
-    "url": "github.com/pewh/bell-cli.git"
+    "url": "git+ssh://git@github.com:pewh/bell-cli.git"
   },
   "keywords": [
     "bell",
